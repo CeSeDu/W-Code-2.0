@@ -1,3 +1,2 @@
 # W-Code-2.0
-
-Kurulum oturumu
+W-Code 2.0 Atölyesinde geliştirdiğimiz tüm kodlar bu projede!
