@@ -1,12 +1,142 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>W-Code 2.0</title>
-</head>
-<body>
-    <h1>W-Code'da ilk kodlarımız!!</h1>
-    <div>Hello World!</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 101</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <nav>
+      HTML & CSS
+    </nav>
+    <div class="container" >
+      <!--Başlık-->
+      <header>
+        <h1 id="color-orange">HTML ile ilk Kodlar</h1>
+        <p class="center color-orange">
+          Lorem ipsum dolor sit amet consectetur.
+        </p>
+      </header>
+
+      <hr />
+
+      <!--Hakkımda-->
+      <section>
+        <h2 class="color-orange border-left" >Hakkımda</h2>
+        <p class="center">Geleceği Kodlayanlar!</p>
+      </section>
+
+      <!--Görsel alanı-->
+      <section>
+        <h2>Favori resmim</h2>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDTP0BZ-2COWDsqf9JyIGjOftNsM-1fUMpfg&s"
+          alt="Cafer"
+        />
+        <!-- <img src="./img/5.jpeg" alt=""> -->
+      </section>
+
+      <!--liste örneği-->
+      <section>
+        <h2>Öğrendiklerim</h2>
+        <h3>Sıralı liste</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>Bootstrap</li>
+        </ul>
+        <ol>
+          <li>React</li>
+          <li>Next.js</li>
+        </ol>
+      </section>
+
+      <!--Bağlantı/url-->
+
+      <section>
+        <h2>Faydalı linkler:</h2>
+        <p>
+          <a href="https://www.w3schools.com/html/html_colors.asp"
+            >HTML öğrenmek için tıklayın!</a
+          >
+        </p>
+        <p>
+          <a href="https://developer.mozilla.org/en-US/"
+            >CSS öğrenmek için tıklayın!</a
+          >
+        </p>
+      </section>
+
+      <!--Tablo Kullanımı-->
+
+      <section>
+        <h2>Ders Programı</h2>
+        <table border="1" cellpadding="10">
+          <tr>
+            <th>Pazartesi</th>
+            <!--Başlıklarda kullandığımız hücreler-->
+            <th>Salı</th>
+            <th>Perşembe</th>
+          </tr>
+          <tr class="bg-gray">
+            <!--Satırlar-->
+            <td>Front-End Web Geliştirme</td>
+            <!--İçerik için kullandığımız hücreler-->
+            <td class="text-center">-</td>
+            <td>Front-End Web Geliştirme</td>
+          </tr>
+          <tr>
+            <td>Front-End Web Geliştirme</td>
+            <td>W-Code 2.0 Etkinlik</td>
+            <td>Front-End Web Geliştirme</td>
+          </tr>
+          <tr class="bg-gray">
+            <td>Front-End Web Geliştirme</td>
+            <td class="text-center" >-</td>
+            <td>Front-End Web Geliştirme</td>
+          </tr>
+          <tr>
+            <td>Front-End Web Geliştirme</td>
+            <td>W-Code 2.0 Etkinlik</td>
+            <td>Front-End Web Geliştirme</td>
+          </tr>
+          <tr class="bg-gray">
+            <td>Front-End Web Geliştirme</td>
+            <td class="text-center">-</td>
+            <td>Front-End Web Geliştirme</td>
+          </tr>
+          <tr>
+            <td>Front-End Web Geliştirme</td>
+            <td>W-Code 2.0 Etkinlik</td>
+            <td>Front-End Web Geliştirme</td>
+          </tr>
+        </table>
+      </section>
+
+      <!--form Kulanımı-->
+
+      <section>
+        <h2>İletişim formu</h2>
+        <form>
+          <label>Ad-Soyad:</label>
+          <input type="text" name="isim" /> <br />
+
+          <label>E-Posta</label>
+          <input type="email" name="" id="" /><br />
+
+          <label>Mesanız:</label>
+          <textarea name="mesaj" id="" rows="5" cols="30"></textarea> <br />
+
+          <input type="submit" value="Gönder" />
+        </form>
+      </section>
+
+      <!--Footer-->
+    </div>
+    <footer  >
+      <p>HTML Pratiği</p>
+    </footer>
+  </body>
 </html>
